@@ -44,13 +44,13 @@ public class LifeManager {
 	public static void removeUnnecessaryWork() {
 		Scanner input = new Scanner(System.in);
 		System.out.print("Want to remove Tasks:");
-		int WantRemove = input.nextInt();
+		String WantRemove = input.next();
 	}
 	
 	public static void modifyPlans() {
 		Scanner input = new Scanner(System.in);
 		System.out.print("Want to modify Tasks:");
-		int WantModify = input.nextInt();
+		String WantModify = input.next();
 	}
 	
 	public static void showDailyTask() {
