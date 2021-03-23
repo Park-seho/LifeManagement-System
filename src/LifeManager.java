@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class LifeManager {
 
 	public static void main(String[] args) {
-		int num = 5;
 		Scanner input = new Scanner(System.in);
+		int num = 5;
 		
 		while(num != 6) {
 			System.out.println("***Life Management System Menu***");
