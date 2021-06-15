@@ -23,11 +23,11 @@ public class LifeManager extends Life_M{
                 System.out.println("***TEST FOR TYPING INFORMATION***");
  
                 lm.addNewPerson(new Life(1, "bengi", "exercise", "study", "read the book", "do assignment", "meet friends"));
-                lm.addNewPerson(new Life(2, "faker", "asd", "af", "ga", "fw", "fwq"));
-                lm.addNewPerson(new Life(3, "peanut", "asdf", "fAS", "fqe", "Rock", "Rock"));
-                lm.addNewPerson(new Life(4, "pray", "Rock", "Rock", "Rock", "Rock","Rock"));
-                lm.addNewPerson(new Life(5, "smeb","Rock","Rock", "Rock", "Rock", "Rock"));    
-                lm.addNewPerson(new Life(6, "the shy", "Rock", "Rock", "Rock", "Rock", "Rock"));
+                lm.addNewPerson(new Life(2, "faker", "study", "exercise", "Walk with dog", "do assignment", "play soccer"));
+                lm.addNewPerson(new Life(3, "peanut", "play computer games", "exercise", "walking", "study", "do assignment"));
+                lm.addNewPerson(new Life(4, "pray", "do assignment", "walking", "play computer games", "exercise","study"));
+                lm.addNewPerson(new Life(5, "smeb","study","play baseball", "exercise", "meet friends", "do assignment"));    
+                lm.addNewPerson(new Life(6, "the shy", "exercise", "do assignment", "meet friends", "study", "play computer games"));
                 System.out.println();
                 break;                
             case "1":
